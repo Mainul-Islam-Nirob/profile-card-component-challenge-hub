@@ -5,22 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-  
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+  <div class="container">
+    <div class="card">
+      <img src="images/bg-pattern-card.svg" alt="">
+        <img class="victor-img" src="images/image-victor.jpg" alt="Victor Crest">
+        <h3 class="name">Victor Crest <span>26</span></h3>
+        <p class="home">London</p>
+        <div class="card-footer">
+          <div class="stats">
+            <p class="quantity">
+              80K
+            </p>
+            <span class="quan-name">Followers</span>
+          </div>
+          <div class="stats">
+            <p class="quantity">
+              803K
+            </p>
+            <span class="quan-name">Likes</span>
+          </div>
+          <div class="stats">
+            <p class="quantity">
+              1.4K
+            </p>
+            <span class="quan-name">Photos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
